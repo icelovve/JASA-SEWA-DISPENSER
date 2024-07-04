@@ -1,0 +1,60 @@
+.img-client img{
+    width: 100%;
+    height: auto;
+}
+
+.dispenser,
+.job_order{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.job_order{
+    margin-bottom: 80px;
+}
+
+.dispenser h2,
+.job_order h2{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.dispenser h1,
+.job_order h1{
+    font-size: 28px;
+    font-weight: 650;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.content-hubungi {
+    background-image: url('/image/background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 120px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.content-hubungi h2,
+.content-hubungi p {
+    margin: 0;
+    padding: 10px;
+}
+
+.content-hubungi button {
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #e84e40;
+    border: none;
+    border-radius:14px;
+    padding: 10px 18px;
+}
+
+.content-hubungi button:hover {
+    background-color: #f36c60;
+}
